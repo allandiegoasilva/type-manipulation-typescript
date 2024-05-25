@@ -3,7 +3,6 @@ import { UserType } from "@/enum/user-type";
 import { EntityType } from "@/types/entity-type";
 import { OptionalType } from "@/types/optional-type";
 
-
 type Constructor = OptionalType<EntityType<User>, 'id' | 'createdAt'>;
 
 export class User extends Entity {
